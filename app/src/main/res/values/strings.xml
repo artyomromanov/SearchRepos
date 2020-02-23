@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RepositoriesSearch</string>
+    <string name="txt_search">Search Repositories:</string>
+    <string name="txt_result_item">Result Item</string>
+    <string name="enter_your_query">Enter your query</string>
+    <string name="total_hits">Total Hits</string>
+    <string name="txt_retry">Tap to retry</string>
+</resources>
