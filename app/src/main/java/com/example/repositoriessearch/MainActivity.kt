@@ -41,13 +41,9 @@ class MainActivity : AppCompatActivity() {
 
                 if(text.toString() == mainViewModel.getEnteredQuery()){
 
-                    //println("equals")
-
                     initializeListAndHitCount(mainViewModel.getMutableLiveData().value ?: throw IllegalArgumentException())
 
                 } else {
-
-                    //println("not equals")
 
                     mainViewModel.apply {
 
